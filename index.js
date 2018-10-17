@@ -2,7 +2,7 @@ const Joi = require("joi");
 const express = require("express");
 const app = express();
 const JsonFileSaver = require("./jsonFileSaver");
-console.log("start");
+console.log("start2");
 app.use(express.json());
 
 let players = [];
